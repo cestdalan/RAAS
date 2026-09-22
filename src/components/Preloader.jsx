@@ -38,8 +38,12 @@ export default function Preloader({ onComplete }) {
 
       <div className="relative flex flex-col items-center">
         {/* Gallery Monogram */}
-        <div className="mb-6 flex items-center justify-center w-12 h-12 rounded-full border border-[#c5a059]/30 text-[#c5a059] font-cinzel text-sm tracking-widest">
-          A ⊙ G
+        <div className="mb-6 flex items-center justify-center w-12 h-12 rounded-full border border-[#c5a059]/40 bg-[#121212]/70 text-[#c5a059] font-cinzel text-sm shadow-[0_0_15px_rgba(197,160,89,0.12)]">
+          <span className="inline-flex items-center justify-center gap-1.5 leading-none select-none">
+            <span className="font-semibold">A</span>
+            <span className="text-[9px] text-[#c5a059]/80 leading-none pb-[1px]">⊙</span>
+            <span className="font-semibold">G</span>
+          </span>
         </div>
 
         {/* Minimal Percentage Counter */}
@@ -61,8 +65,10 @@ export default function Preloader({ onComplete }) {
         </div>
 
         {/* Editorial Subtitle */}
-        <div className="mt-5 font-cinzel text-[11px] tracking-[0.3em] uppercase text-[#8a857e]">
-          ART GALLERY (AG) &middot; Heritage In Art
+        <div className="mt-5 flex items-center justify-center gap-2 font-cinzel text-[11px] tracking-[0.25em] uppercase text-[#8a857e]">
+          <span>ART GALLERY (AG)</span>
+          <span className="text-[#c5a059]">&middot;</span>
+          <span>Heritage In Art</span>
         </div>
       </div>
     </div>
