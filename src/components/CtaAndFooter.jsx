@@ -32,7 +32,7 @@ export default function CtaAndFooter() {
           </div>
 
           <a
-            href="mailto:curator@lumenartspace.com"
+            href="mailto:inquire@artgallery.com"
             className="group relative w-full sm:w-4/5 md:w-3/4 py-6 md:py-8 px-8 md:px-14 rounded-full border border-[#c5a059]/50 bg-[#0e0d0b]/80 backdrop-blur-md hover:bg-[#c5a059] hover:border-[#c5a059] text-center transition-all duration-500 shadow-2xl flex items-center justify-between"
           >
             {/* Left label */}
@@ -89,10 +89,10 @@ export default function CtaAndFooter() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <span className="w-8 h-8 rounded-full border border-[#c5a059]/40 flex items-center justify-center font-cinzel text-xs text-[#c5a059]">
-                L⊙A
+                A⊙G
               </span>
               <span className="font-cinzel text-sm tracking-widest text-[#f5f2eb]">
-                LUMEN ARTSPACE
+                ART GALLERY (AG)
               </span>
             </div>
             <p className="font-sans text-xs text-[#8a857e] font-light leading-relaxed">
@@ -168,10 +168,10 @@ export default function CtaAndFooter() {
           </div>
         </div>
 
-        {/* OVERSIZED "LUMEN ARTSPACE" WORDMARK */}
+        {/* OVERSIZED "ART GALLERY" WORDMARK */}
         <div className="pt-12 pb-6 text-center select-none overflow-hidden">
           <h2 className="text-[12vw] font-serif font-extralight tracking-widest text-[#f5f2eb]/10 hover:text-[#c5a059]/20 transition-colors duration-700 leading-none">
-            LUMEN ARTSPACE
+            ART GALLERY
           </h2>
         </div>
 
@@ -184,7 +184,7 @@ export default function CtaAndFooter() {
 
           {/* Copyright line */}
           <div className="text-center font-light">
-            &copy; 2015&ndash;2026 Lumen Artspace Foundation. All rights reserved.
+            &copy; 2015&ndash;2026 ART GALLERY (AG) Foundation. All rights reserved.
           </div>
 
           {/* Credit line */}

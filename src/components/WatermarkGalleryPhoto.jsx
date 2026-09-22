@@ -88,7 +88,7 @@ export default function WatermarkGalleryPhoto() {
       >
         {/* Monogram Logo Mark */}
         <div className="w-14 h-14 rounded-full border border-[#c5a059]/30 flex items-center justify-center font-cinzel text-base text-[#c5a059] mb-4">
-          L ⊙ A
+          A ⊙ G
         </div>
 
         {/* Tagline */}
@@ -98,7 +98,7 @@ export default function WatermarkGalleryPhoto() {
 
         {/* Giant Thin Serif Typography */}
         <h2 className="text-4xl sm:text-7xl md:text-8xl lg:text-9xl font-serif font-extralight tracking-widest text-[#f5f2eb]/90 uppercase leading-none">
-          LUMEN ARTSPACE
+          ART GALLERY
         </h2>
       </div>
 
@@ -109,7 +109,7 @@ export default function WatermarkGalleryPhoto() {
       >
         <img
           src={galleryHallwayImage}
-          alt="Lumen Artspace Grand Hallway"
+          alt="ART GALLERY Grand Hallway"
           className="w-full h-full object-cover grayscale-[35%] contrast-125"
         />
         {/* Darkening & Warm Gilded Vignette Overlay */}
@@ -138,7 +138,7 @@ export default function WatermarkGalleryPhoto() {
 
         <div className="pt-2">
           <span className="font-cinzel text-xs tracking-widest text-[#c5a059]/80 uppercase">
-            &mdash; The Curatorial Board of Lumen Artspace
+            &mdash; The Curatorial Board of ART GALLERY (AG)
           </span>
         </div>
       </div>

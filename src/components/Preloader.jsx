@@ -39,7 +39,7 @@ export default function Preloader({ onComplete }) {
       <div className="relative flex flex-col items-center">
         {/* Gallery Monogram */}
         <div className="mb-6 flex items-center justify-center w-12 h-12 rounded-full border border-[#c5a059]/30 text-[#c5a059] font-cinzel text-sm tracking-widest">
-          L ⊙ A
+          A ⊙ G
         </div>
 
         {/* Minimal Percentage Counter */}
@@ -62,7 +62,7 @@ export default function Preloader({ onComplete }) {
 
         {/* Editorial Subtitle */}
         <div className="mt-5 font-cinzel text-[11px] tracking-[0.3em] uppercase text-[#8a857e]">
-          Lumen Artspace &middot; Heritage In Art
+          ART GALLERY (AG) &middot; Heritage In Art
         </div>
       </div>
     </div>

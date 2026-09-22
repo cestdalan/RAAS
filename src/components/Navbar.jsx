@@ -56,10 +56,10 @@ export default function Navbar({ activeSection = 1, totalSections = 8, onNavigat
         <button
           onClick={() => handleScrollTo('hero-section')}
           className="group relative flex items-center justify-center w-10 h-10 rounded-full border border-[#c5a059]/40 bg-[#121212]/90 hover:border-[#c5a059] transition-all duration-300 shadow-[0_0_15px_rgba(197,160,89,0.15)]"
-          title="Lumen Artspace"
+          title="ART GALLERY (AG)"
         >
           <span className="font-cinzel text-xs font-semibold text-[#f5f2eb] group-hover:text-[#c5a059] transition-colors">
-            L⊙A
+            A⊙G
           </span>
           <div className="absolute inset-0 rounded-full border border-[#c5a059]/20 scale-125 opacity-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500" />
         </button>

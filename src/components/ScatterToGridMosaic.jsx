@@ -201,7 +201,7 @@ export default function ScatterToGridMosaic() {
       >
         {/* Script Tagline */}
         <p className="font-script text-3xl md:text-5xl text-[#c5a059] mb-2 tracking-wider">
-          Lumen Artspace
+          ART GALLERY
         </p>
 
         {/* Huge Serif Heading */}
